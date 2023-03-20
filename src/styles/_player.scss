@@ -1,0 +1,74 @@
+html,
+body {
+  background: $pico-col-6;
+}
+
+.console-surround {
+  max-width: 800px;
+  margin: auto;
+  background: $pico-col-6;
+  padding: 20px;
+  width: 85vw;
+  height: 100vh;
+  position: relative;
+}
+
+._gAzLx {
+  margin-left: 0 !important;
+  margin: auto;
+}
+
+._qMiAj {
+  position: absolute;
+  top: 36px !important;
+}
+
+._JcDUc {
+  width: 85vmin !important;
+  height: 85vmin !important;
+}
+
+.screen-surround {
+  height: 85vmin;
+  max-height: 768px;
+  max-width: 766px;
+  width: 85vmin;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 6px inset $pico-col-7;
+
+  border-style: solid;
+  border-width: 6px;
+  border-top-color: $pico-col-5;
+  border-left-color: $pico-col-5;
+  border-right-color: $pico-col-7;
+  border-bottom-color: $pico-col-7;
+}
+
+._JoK6F {
+  text-align: left;
+}
+
+// menu Buttons (vol etc)
+._sOepT {
+  position: absolute;
+  // bottom: 50vmin;
+  top: 0;
+  margin-left: -80px !important;
+}
+
+._kXWCq {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  right: 0;
+  //   bottom: 0;
+  margin: auto;
+}
+
+._8Gj9f {
+  display: inline !important;
+}

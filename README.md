@@ -1,3 +1,16 @@
+# Pico 8 Mobile
+
+This is a mobile app for the Pico 8 fantasy console. It is a work in progress.
+This is not an official Pico 8 app.
+
+This is made possible because of the [Pico 8](https://www.lexaloffle.com/).
+
+This is not intended to be a replacement for the Pico 8 desktop app. It is intended to be a companion app for the Pico 8 desktop app.
+
+This is not designed to have full mobile support. It is designed as a personal project to play carts on the go, thus is styled explictly for my iPhone XR.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

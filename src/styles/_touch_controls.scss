@@ -1,0 +1,165 @@
+#touch_controls_gfx {
+  // pointer-events: none;
+  display: table;
+  position: fixed;
+
+  left: 0px;
+  bottom: 0;
+  border: 0px;
+  width: 100vw;
+  height: 50vh;
+}
+
+// #controls_right_panel {
+//   position: absolute;
+//   left: 207px;
+//   bottom: 0;
+//   width: 207px;
+//   height: 241.5px;
+// }
+
+#controls_left_panel {
+  // position: absolute;
+  // left: 0px;
+  // bottom: 0;
+  // width: 207px;
+  // height: 207px;
+  width: 50%;
+  position: relative;
+}
+#controls_right_panel {
+  width: 50%;
+  margin-left: 50%;
+
+  position: relative;
+  // bottom: 0;
+  // right: 0;
+  // height: 10% !important;
+  // display: block;
+}
+
+.round-button {
+  border-radius: 50%;
+  // width: 8vw;
+  // height: 8vw;
+  position: absolute;
+  max-width: 150px;
+  max-height: 150px;
+
+  border: none;
+  background: $pico-col-8;
+  z-index: 10;
+  box-shadow: 2px 2px 2px 1px $pico-col-0;
+}
+
+.button-label {
+  font-family: "pico-8";
+  // font-size: 3vw;
+  padding-left: 0.7vw;
+  // color: $pico-col-2;
+  color: transparent;
+  background-color: $pico-col-2;
+  text-shadow: 0px 2px 2px $pico-col-136;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+
+  user-select: none !important;
+  -webkit-user-select: none !important; /* Safari fallback only */
+  -webkit-user-select: none !important; /* Chrome/Safari */
+  -moz-user-select: none !important; /* Firefox */
+  -ms-user-select: none !important; /* IE10+ */
+}
+
+.button-O {
+  top: 20vh;
+  bottom: 0;
+  right: 10%;
+}
+.button-X {
+  top: 30vh;
+  bottom: 10%;
+  left: 20%;
+}
+
+.button-graphic {
+  // -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  // filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.7));
+  fill: $pico-col-7;
+}
+
+.round-button-base {
+  position: absolute;
+  margin: -4px;
+  background: $pico-col-136;
+  z-index: 1;
+}
+
+.pill-button {
+  position: absolute;
+  max-width: 150px;
+  max-height: 20px;
+  border-radius: 20px;
+
+  top: 10vh;
+  right: 10%;
+
+  border: none;
+  background: $pico-col-5;
+  z-index: 10;
+  box-shadow: 2px 2px 2px 1px $pico-col-0;
+}
+
+.arrow-button {
+  position: absolute;
+  max-width: 100px;
+  max-height: 150px;
+  border-radius: 10px;
+
+  border: none;
+  background: $pico-col-5;
+  z-index: 10;
+}
+
+.arrow-button.button-Up {
+  // bottom: 30vh;
+  top: 10vh;
+  left: 38%;
+  box-shadow: 2px 2px 2px 1px $pico-col-0;
+}
+
+.arrow-button.button-Down {
+  top: 30vh;
+  left: 38%;
+  transform: rotate(180deg);
+  box-shadow: -2px -2px 2px 1px $pico-col-0;
+}
+
+.arrow-button.button-Left {
+  top: 20vh;
+  left: 10%;
+  transform: rotate(-90deg);
+  box-shadow: -2px 2px 2px 1px $pico-col-0;
+}
+
+.arrow-button.button-Right {
+  top: 20vh;
+  left: 65%;
+  transform: rotate(90deg);
+  box-shadow: 2px -2px 2px 1px $pico-col-0;
+}
+
+.pico-button {
+  position: absolute;
+  max-width: 150px;
+  max-height: 20px;
+  border-radius: 20px;
+
+  top: 10vh;
+  right: 50%;
+
+  border: none;
+  background: $pico-col-1;
+  z-index: 10;
+  box-shadow: 2px 2px 2px 1px $pico-col-0;
+}

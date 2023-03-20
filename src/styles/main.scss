@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "pico-8";
+  src: url("/src/fonts/pico-8-webfont.woff2") format("woff2"), url("/src/fonts/pico-8-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+@import "variables";
+@import "touch_controls";
+@import "player";
+@import "splore";
+
+body,
+svg,
+button,
+select,
+textarea,
+input,
+svg:focus button:focus,
+select:focus,
+textarea:focus,
+input:focus {
+  font-size: 16px !important;
+}
